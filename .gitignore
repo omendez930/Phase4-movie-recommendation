@@ -171,4 +171,4 @@ cython_debug/
 .pypirc
 
 #datasets
-./ml-latest-small
+/ml-latest-small
