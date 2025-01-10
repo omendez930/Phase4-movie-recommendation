@@ -171,4 +171,4 @@ cython_debug/
 .pypirc
 
 #datasets
-ml-latest-small/
+Phase4-movie-recommendation/ml-latest-small/
