@@ -36,11 +36,14 @@ During my initial analysis, I analyzed user and movie statistics. Visualized spa
 
 ![Genre_distribution](./images/Genre_distribution.png)
 
-
+![New_User](./images/Hybrid_rec_new_user.png)
 
 # Conclusion
+Using collaborative filtering approach implementing leveraging user-based or item-based similarities to recommend top 5 movies for each user. To address the cold start problem, a hybrid model combines collaborative filtering with content-based filtering, incorporating movie metadata.
 
-# Next Steps
+To provide personalized movie recommendations, we consider their historical data or the historical data of others based on ratings for new users to ensure tailore recommendations.
+
+The model's performance is assessed using Root Mean Squared Error (RMSE) to measure prediction accuracy. Additionally, due to the sparsity within the matrix, Precision and Recall are not used to evaluate the ranking effectiveness of the recommendations.
 
 # For more information
 
